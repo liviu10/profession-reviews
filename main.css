@@ -1,0 +1,40 @@
+.nav-link {
+  width: 100px;
+  text-align: center;
+}
+.nav-link.btn.btn-success {
+  color: #FFFFFF;
+}
+.guest__header, .guest__jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 75px;
+}
+.guest__header p, .guest__jumbotron p {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.guest__header p {
+  font-size: 22px;
+}
+.guest__jumbotron p {
+  font-size: 18px;
+}
+.guest__jumbotron-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+.guest__jumbotron-services div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 8px;
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}

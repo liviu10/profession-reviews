@@ -30,8 +30,123 @@
     <body>
 
       <div id="app">
-        <main class="container-fluid">
-          Hello world!
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Review.ro</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-success" href="#">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <main class="container-fluid guest guest--page">
+          <div class="guest__header">
+            <p>Review-ul tau</p>
+            <p>Onest.</p>
+            <p>Independent.</p>
+          </div>
+
+          <div class="guest__jumbotron">
+            <p>Esti in cautarea unui:</p>
+            
+            <div class="guest__jumbotron-services">
+              <div>
+                <p>Medic</p>
+              </div>
+              <div>
+                <p>Dentist</p>
+              </div>
+              <div>
+                <p>Avocat</p>
+              </div>
+              <div>
+                <p>Contabil</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="guest__search">
+            <div class="card">
+              <div class="card-body">
+                <div class="input-group">
+                  <span class="input-group-text" id="name">
+                    Nume
+                  </span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder=""
+                    aria-label="name"
+                    aria-describedby="name"
+                  >
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text" id="county">
+                    Judet
+                  </span>
+                  <select class="form-select" aria-label="county">
+                    <option selected>-- Select a county --</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text" id="city">
+                    Oras
+                  </span>
+                  <select class="form-select" aria-label="city">
+                    <option selected>-- Select a city --</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text" id="speciality">
+                    Specializare
+                  </span>
+                  <select class="form-select" aria-label="speciality">
+                    <option selected>-- Select a speciality --</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="guest__reviews">
+            <p>
+              Cele mai noi review-uri:
+            </p>
+            <p>John Doe a acordat 5 stele lui Medic John Doe</p>
+            <p>John Doe a acordat 4 stele lui Medic John Doe</p>
+            <p>John Doe a acordat 3 stele lui Medic John Doe</p>
+          </div>
+
         </main>
       </div>
 
